@@ -1,0 +1,35 @@
+.header {
+    margin: 0;
+    padding: 4em 0 6em;
+    color: #ffaf36;
+    background-color: #303841;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.header input[type="search"], textarea {
+    background-color : #3a4750;
+    color: #ffaf36;
+    border-radius: 10px;
+}
+
+.header input::placeholder {
+    color: #ffaf36;
+}
+
+.header input:focus {
+    border-color: #ffaf36;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.header input:hover {
+    border-color: #ffaf36;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.currencyList {
+    margin: 0;
+    background-color: #3a4750;
+}
